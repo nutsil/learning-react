@@ -142,15 +142,12 @@ body {
 }
 
 .top {
-  display: flex;
-  align-items: center;
   background-color: $primary-dark;
-  height: 50px;
   margin-bottom: 100px;
+  padding: 20px;
 
   .title {
     font-size: 30px;
-    margin-left: 20px;
     color: $text-ligth;
   }
 }
