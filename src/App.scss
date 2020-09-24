@@ -175,11 +175,7 @@ body {
   .data {
     color: $text-ligth;
     font-size: 16px;
-    margin: 0 0 8px 20px;
-
-    p:last-child {
-      margin: 0;
-    }
+    margin: 0 0 8px 0;
   }
 }
 
@@ -188,7 +184,7 @@ body {
   color: $text-dark;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 0 0 3px 20px;
+  margin: 0 0 3px 0;
 }
 
 .topcard {
@@ -201,6 +197,14 @@ body {
   highlight-text {
     font-size: 17px;
     line-height: 25px;
+  }
+}
+
+.information {
+  padding: 5px 0 10px 20px;
+
+  p:last-child {
+    margin: 0;
   }
 }
 
