@@ -1,0 +1,208 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End css Reset */
+
+/* General css */
+$primary-color: #f48fb1;
+$primary-ligth: #ffc1e3;
+$primary-dark: #bf5f82;
+$secondary-color: #ff8f00;
+$secondary-dark: #c56000;
+$text-dark: #000;
+$text-ligth: #f8f6f1;
+
+$font-principal: "Libre Franklin", sans-serif;
+
+/* End general css */
+
+body {
+  background-color: $primary-ligth;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  background-color: $primary-dark;
+  height: 50px;
+  margin-bottom: 100px;
+
+  .title {
+    font-size: 30px;
+    margin-left: 20px;
+    color: $text-ligth;
+  }
+}
+
+.title {
+  font-family: $font-principal;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: $secondary-dark;
+  width: 450px;
+  height: 250px;
+  margin: auto;
+
+  img {
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+  }
+
+  .data {
+    color: $text-ligth;
+    font-size: 16px;
+    margin: 0 0 8px 20px;
+
+    :last-child {
+      margin: 0 0 0 20px;
+    }
+  }
+}
+
+.caption {
+  font-size: 10px;
+  color: $text-dark;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 3px 20px;
+}
+
+.topcard {
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  background-color: $secondary-color;
+  color: $text-dark;
+
+  .title {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
