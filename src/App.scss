@@ -160,6 +160,7 @@ body {
 
 .card {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   background-color: $secondary-dark;
   width: 450px;
@@ -192,7 +193,7 @@ body {
 }
 
 .topcard {
-  width: 450px;
+  width: 100%;
   margin: auto;
   text-align: center;
   background-color: $secondary-color;

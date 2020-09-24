@@ -8,10 +8,11 @@ function App() {
       <div className="top">
         <p className="title">not a fake card</p>
       </div>
-      <div className="topcard">
-        <p className="title">International identification</p>
-      </div>
+
       <div className="card">
+        <div className="topcard">
+          <p className="title">International identification</p>
+        </div>
         <img src={photo} alt="mabel" />
         <div className="information">
           <p className="caption">Given name:</p>
