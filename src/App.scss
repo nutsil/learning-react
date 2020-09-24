@@ -164,7 +164,6 @@ body {
   align-items: center;
   background-color: $secondary-dark;
   width: 450px;
-  height: 250px;
   margin: auto;
 
   img {
@@ -189,7 +188,6 @@ body {
 
 .topcard {
   width: 100%;
-  margin: auto;
   text-align: center;
   background-color: $secondary-color;
   color: $text-dark;
@@ -201,7 +199,7 @@ body {
 }
 
 .information {
-  padding: 5px 0 10px 20px;
+  padding: 0 0 10px 20px;
 
   p:last-child {
     margin: 0;
