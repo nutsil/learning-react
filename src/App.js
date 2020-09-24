@@ -13,7 +13,9 @@ function App() {
         <div className="topcard">
           <p className="title">International identification</p>
         </div>
-        <img src={photo} alt="mabel" />
+        <div className="photo-id">
+          <img src={photo} alt="mabel" />
+        </div>
         <div className="information">
           <p className="caption">Given name:</p>
           <p className="data title">Mabel</p>
