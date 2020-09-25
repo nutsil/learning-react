@@ -1,13 +1,12 @@
 import React from "react";
-import photo from "./mabel.png";
-import "./App.scss";
+import photo from "../../assets/images/mabel.png";
+import "./App.styles.scss";
+import Top from "../Top/Top.component";
 
 function App() {
   return (
     <div>
-      <div className="top">
-        <p className="highlight-text">not a fake card</p>
-      </div>
+      <Top />
 
       <div className="card">
         <div className="topcard">

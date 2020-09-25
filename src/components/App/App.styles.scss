@@ -147,17 +147,6 @@ body {
   font-weight: bold;
 }
 
-.top {
-  background-color: $primary-dark;
-  margin-bottom: 100px;
-  padding: 20px;
-
-  .highlight-text {
-    font-size: 30px;
-    color: $text-ligth;
-  }
-}
-
 .card {
   display: flex;
   flex-wrap: wrap;

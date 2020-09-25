@@ -1,0 +1,13 @@
+$primary-dark: #bf5f82;
+$text-ligth: #f8f6f1;
+
+.top {
+  background-color: $primary-dark;
+  margin-bottom: 100px;
+  padding: 20px;
+
+  .highlight-text {
+    font-size: 30px;
+    color: $text-ligth;
+  }
+}
