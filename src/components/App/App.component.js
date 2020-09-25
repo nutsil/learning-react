@@ -1,12 +1,12 @@
 import React from "react";
 import photo from "../../assets/images/mabel.png";
 import "./App.styles.scss";
-import Top from "../Top/Top.component";
+import Header from "../Header/Header.component";
 
 function App() {
   return (
     <div>
-      <Top />
+      <Header />
 
       <div className="card">
         <div className="topcard">

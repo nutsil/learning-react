@@ -1,7 +1,7 @@
 import React from "react";
-import "./Top.styles.scss";
+import "./Header.styles.scss";
 
-function Top() {
+function Header() {
   return (
     <div className="top">
       <p className="highlight-text">not a fake card</p>
@@ -9,4 +9,4 @@ function Top() {
   );
 }
 
-export default Top;
+export default Header;
