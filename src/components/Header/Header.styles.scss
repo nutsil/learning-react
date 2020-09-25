@@ -1,12 +1,15 @@
 @import "src/assets/scss/variables.scss";
 
-.top {
+.header-title {
+  font-family: $font-principal;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  color: $text-ligth;
+}
+
+.header {
   background-color: $primary-dark;
   margin-bottom: 100px;
   padding: 20px;
-
-  .highlight-text {
-    font-size: 30px;
-    color: $text-ligth;
-  }
 }

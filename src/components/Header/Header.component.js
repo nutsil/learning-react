@@ -3,8 +3,8 @@ import "./Header.styles.scss";
 
 function Header() {
   return (
-    <div className="top">
-      <p className="highlight-text">not a fake card</p>
+    <div className="header">
+      <p className="header-title">not a fake card</p>
     </div>
   );
 }
