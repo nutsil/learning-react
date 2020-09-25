@@ -1,0 +1,26 @@
+@import "src/assets/scss/variables.scss";
+
+.data {
+  color: $text-ligth;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  font-family: $font-principal;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.caption {
+  font-size: 10px;
+  color: $text-dark;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 3px 0;
+}
+
+.information {
+  padding: 0 0 10px 20px;
+
+  p:last-child {
+    margin: 0;
+  }
+}
