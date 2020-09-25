@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.styles.scss";
-import photo from "../../assets/images/mabel.png";
+import CardPic from "../CarPic/CardPic.component";
 
 function Card() {
   return (
@@ -8,9 +8,7 @@ function Card() {
       <div className="topcard">
         <p className="highlight-text">International identification</p>
       </div>
-      <div className="photo-id">
-        <img src={photo} alt="mabel" />
-      </div>
+      <CardPic />
       <div className="information">
         <p className="caption">Given name:</p>
         <p className="data highlight-text">Mabel</p>
