@@ -1,5 +1,6 @@
 import React from "react";
 import photo from "../../assets/images/mabel.png";
+import "./CardPic.styles.scss";
 
 function CardPic() {
   return (
