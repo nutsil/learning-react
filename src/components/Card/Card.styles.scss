@@ -1,0 +1,59 @@
+@import "src/assets/scss/variables.scss";
+
+.highlight-text {
+  font-family: $font-principal;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: $secondary-dark;
+  width: 450px;
+  margin: auto;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.data {
+  color: $text-ligth;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+}
+
+.caption {
+  font-size: 10px;
+  color: $text-dark;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 3px 0;
+}
+
+.topcard {
+  width: 100%;
+  text-align: center;
+  background-color: $secondary-color;
+  color: $text-dark;
+
+  .highlight-text {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+.information {
+  padding: 0 0 10px 20px;
+
+  p:last-child {
+    margin: 0;
+  }
+}
+
+.photo-id {
+  padding: 15px;
+}

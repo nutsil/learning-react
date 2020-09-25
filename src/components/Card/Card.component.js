@@ -1,4 +1,5 @@
 import React from "react";
+import "./Card.styles.scss";
 import photo from "../../assets/images/mabel.png";
 
 function Card() {
